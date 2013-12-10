@@ -1,7 +1,7 @@
 需要添加的几项内容的解释：
-IPADDR    IP地址
-NETMASK    子网掩码
-NETWORK    网关地址
+    IPADDR    IP地址
+    NETMASK    子网掩码
+    NETWORK    网关地址
 
 通常，如果我们想更改主机地址为静态地址或者更改主机名，需要修改的几个文件包括：
     /etc/sysconfig/network		设置主机名和网络配置
@@ -41,5 +41,5 @@ NETWORK    网关地址
 所以，如果需要修改IP为静态IP的话，最好的方式还是通过修改配置文件来完成。
 
 *界面操作流程*
-===========================
+--------------------
       System -> Preference -> Network Connections -> System eth0-> edit -> IPv4 Setting 
