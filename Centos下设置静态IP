@@ -40,5 +40,6 @@ NETWORK    网关地址
 
 所以，如果需要修改IP为静态IP的话，最好的方式还是通过修改配置文件来完成。
 
-***界面操作流程***
-System -> Preference -> Network Connections -> System eth0-> edit -> IPv4 Setting 
+
+**界面操作流程**
+    System -> Preference -> Network Connections -> System eth0-> edit -> IPv4 Setting 
