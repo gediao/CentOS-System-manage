@@ -6,10 +6,10 @@
 
 通常，如果我们想更改主机地址为静态地址或者更改主机名，需要修改的几个文件包括：
 
-    /etc/sysconfig/network		设置主机名和网络配置
-    /etc/sysconfig/network-scripts/ifcfg-eth0    针对特定的网卡进行设置
-    /etc/resolv.conf    设置DNS
-    /etc/hosts            设置指定的域名解析地址
+    /etc/sysconfig/network			设置主机名和网络配置
+    /etc/sysconfig/network-scripts/ifcfg-eth0	针对特定的网卡进行设置
+    /etc/resolv.conf				设置DNS
+    /etc/hosts					设置指定的域名解析地址
     
 一般我们只需要修改网卡的配置文件就可以了，例如我的配置文件如下：
 
