@@ -1,9 +1,11 @@
 需要添加的几项内容的解释：
+
     IPADDR    IP地址
     NETMASK    子网掩码
     NETWORK    网关地址
 
 通常，如果我们想更改主机地址为静态地址或者更改主机名，需要修改的几个文件包括：
+
     /etc/sysconfig/network		设置主机名和网络配置
     /etc/sysconfig/network-scripts/ifcfg-eth0    针对特定的网卡进行设置
     /etc/resolv.conf    设置DNS
@@ -31,6 +33,7 @@
 修改的命令如下：ifconfig eth0 192.168.56.102
 
 但是，这个命令执行后，只能够在当前会话中修改网卡的地址，我们看一下 ifcfg-eth0 的配置文件，仍然是
+
     # Advanced Micro Devices [AMD] 79c970 [PCnet32 LANCE]
     DEVICE=eth0
     ONBOOT=yes
@@ -42,4 +45,5 @@
 
 *界面操作流程*
 --------------------
-      System -> Preference -> Network Connections -> System eth0-> edit -> IPv4 Setting 
+
+     System -> Preference -> Network Connections -> System eth0-> edit -> IPv4 Setting 
